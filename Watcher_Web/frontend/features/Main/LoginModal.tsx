@@ -32,7 +32,9 @@ function LoginModal() {
     axios.post("http://127.0.0.1:8000/login", loginForm).then((res) => {
       setTooltipMsg(res.data);
       setOpenTooltip(true);
-      setRoutingStatus(res.data.Status)
+      // setRoutingStatus(res.data.Status)
+      setRoutingStatus("success")
+
     });
   };
 

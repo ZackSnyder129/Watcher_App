@@ -19,4 +19,4 @@ app.add_middleware(
 
 app.include_router(login_api_router)
 app.include_router(license_api_router)
-app.include_router(image_api_router)
+# app.include_router(image_api_router)

@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from config.database import second_collection_name
 from models.criminal_model import Criminal_Check,Criminal_Add
 from schemas.criminal_schema import criminal_searilizer,criminals_searilizer
-import face_recognition as fr
+# import face_recognition as fr
 import urllib.request as ur
 import re
 import os
